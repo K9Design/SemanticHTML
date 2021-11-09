@@ -25,16 +25,15 @@
     </nav>
     <form action="#" method="get">
       <fieldset>
-        <label for="s">
-          <input type="search" name="s" id="s" placeholder="Search..." maxlength="200" />
-        </label>
+        <legend>Search our website</legend>
+        <input title="web site search" type="search" name="search" placeholder="Search..." maxlength="200" />
         <button type="submit" title="Search this website now">Submit</button>
       </fieldset>
     </form>
   </header>
   <aside>
     <section>
-      <h4>services:</h4>
+      <h3>services:</h3>
       <nav>
         <ul>
           <li><a href="/gethelp">get help now</a></li>
@@ -46,7 +45,7 @@
 
     </section>
     <section>
-      <h4>opening times:</h4>
+      <h3>opening times:</h3>
       <ul>
         <li>monday - fridays: 8am - 7pm</li>
         <li>saturdays - sundays: 10am - 4pm</li>
@@ -57,7 +56,7 @@
   <h2>services:</h2>
   <main>
     <figure>
-      <img src="img/surgery.png" alt="picture of our surgery from outside">
+      <img src="img/surgery.png" alt="">
       <figcaption>picture of our surgery from outside</figcaption>
     </figure>
     <article>
@@ -74,7 +73,7 @@
 
     <article>
       <h2>how to use Ask My Doc?</h2>
-      <video src="video/video.mp4" controls> Sorry</video>
+      <video src="video/video.mp4" alt="Video about us" controls> Watch this video</video>
     </article>
 
     <section>
@@ -82,24 +81,29 @@
         Receptionists will be in
         touch:</h3>
       <form action="/action_page.js">
-        <label for="forWho">Are you completing this form on behalf of:</label><br>
-        <input type="radio" id="self" name="fav_language" checked value="HTML">
-        <label for="self">Yourself</label><br>
-        <input type="radio" id="other" name="fav_language" value="CSS">
-        <label for="other">Someone else</label><br><br>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" value=""><br><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" value=""><br><br>
-        <label for="dob">Date of Birth:</label><br>
-        <input type="text" id="dob" value=""><br><br>
-        <label for="tel">Telephone:</label><br>
-        <input type="text" id="tel" value=""><br><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" value=""><br><br>
-        <label for="msg">Message:</label><br>
-        <input type="text" id="msg" value=""><br><br>
-        <input type="submit" value="Submit">
+        <fieldset>
+          <legend>Are you completing this form on behalf of</legend><br>
+          <input type="radio" id="self" name="fav_language" checked value="HTML">
+          <label for="self">Yourself</label><br>
+          <input type="radio" id="other" name="fav_language" value="CSS">
+          <label for="other">Someone else</label><br><br>
+        </fieldset>
+        <fieldset>
+          <legend>Fill in the patient details</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" value=""><br><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" value=""><br><br>
+          <label for="dob">Date of Birth:</label><br>
+          <input type="text" id="dob" value=""><br><br>
+          <label for="tel">Telephone:</label><br>
+          <input type="text" id="tel" value=""><br><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" value=""><br><br>
+          <label for="msg">Message:</label><br>
+          <input type="text" id="msg" value=""><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
       </form>
     </section>
   </main>
