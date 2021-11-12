@@ -15,17 +15,19 @@
   <header>
     <h1>tech returners surgery</h1>
     <h2>welcome to the tech returners surgery!</h2>
-    phone: <a href="tel:0333 050 9138">0333 050 9138</a>
+    phone: <a href="tel:03330509138">0333 050 9138</a>
+
     <nav>
       <ul>
         <li><a href="/home">home</a></li>
         <li><a href="/services">services</a></li>
         <li><a href="/team">team</a></li>
-        <li><a href="/patient information">patient information</a></li>
-        <li><a href="/well-being centre">well-being centre</a></li>
+        <li><a href="/patientInformation">patient information</a></li>
+        <li><a href="/well-beingCentre">well-being centre</a></li>
       </ul>
     </nav>
-    <form action="#2BE done later" method="get">
+
+    <form action="2beDoneLater" method="get">
       <fieldset>
         <legend>Search our website</legend>
         <input title="web site search" type="search" name="search" placeholder="Search..." maxlength="200" />
@@ -33,6 +35,7 @@
       </fieldset>
     </form>
   </header>
+
   <aside>
     <section>
       <h3>services:</h3>
@@ -41,11 +44,11 @@
           <li><a href="/gethelp">get help now</a></li>
           <li><a href="/selfcare">self care advice</a></li>
           <li><a href="/wellbeing">well-being centre</a></li>
-          <li><a href="/prescriptions Information">repeat prescriptions</a></li>
+          <li><a href="/prescriptionsInformation">repeat prescriptions</a></li>
         </ul>
       </nav>
-
     </section>
+
     <section>
       <h3>opening times:</h3>
       <ul>
@@ -55,58 +58,77 @@
 
     </section>
   </aside>
-  <h2>services:</h2>
+
   <main>
     <figure>
       <img src="img/surgery.png" alt="">
       <figcaption>picture of our surgery from outside</figcaption>
     </figure>
+
     <article>
-      <h2>COVID RESTRICTION UPDATE</h2>
+      <h2>covid restricion update</h2>
       <p>
-        Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and staff,
-        we will continue to do so. From the 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY – Patients will still need
+        throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and staff,
+        we will continue to do so. From the <strong>19th july 2021 nothing will change at the surgery</strong> –
+        patients
+        will still need
         to wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to wear PPE.
       </p>
       <p>
-        If you arrive without a mask and are not exempt, you will be asked to leave.
+        <em>If you arrive without a mask and are not exempt, you will be asked to leave.</em>
       </p>
     </article>
 
     <article>
       <h2>how to use Ask My Doc?</h2>
-      <video src="video/video.mp4" alt="Video about us" controls> Watch this video</video>
+      <video src="video/video.mp4" title="Video about us" controls> Watch this video</video>
     </article>
 
     <section>
       <h3>need advice or have some feedback for us? Send us a message by filling out the form below and one of our
         Receptionists will be in
         touch:</h3>
+
       <form action="/action_page.js">
         <fieldset>
-          <legend>Are you completing this form on behalf of</legend><br>
-          <input type="radio" id="self" name="fav_language" checked value="HTML">
-          <label for="self">Yourself</label><br>
-          <input type="radio" id="other" name="fav_language" value="CSS">
-          <label for="other">Someone else</label><br><br>
+          <legend>Are you completing this form on behalf of</legend>
+          <input type="radio" id="self" name="self" checked value="HTML">
+          <label for="self">Yourself</label>
+          <input type="radio" id="other" name="other" value="CSS">
+          <label for="other">Someone else</label>
         </fieldset>
         <fieldset>
           <legend>Please fill in the patient details</legend>
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" value=""><br><br>
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" value=""><br><br>
-          <label for="dob">Date of Birth:</label><br>
-          <input type="text" id="dob" value=""><br><br>
-          <label for="tel">Telephone:</label><br>
-          <input type="text" id="tel" value=""><br><br>
-          <label for="email">Email:</label><br>
-          <input type="text" id="email" value=""><br><br>
-          <label for="msg">Message:</label><br>
-          <input type="text" id="msg" value=""><br><br>
-          <input type="submit" value="Submit">
+          <p>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" value="">
+          </p>
+          <p>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" value="">
+          </p>
+          <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob" value="">
+          </p>
+          <p>
+            <label for="tel">Telephone:</label>
+            <input type="text" id="tel" value="">
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" value="">
+          </p>
+          <p>
+            <label for="msg">Message:</label>
+            <input type="text" id="msg" value="">
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+          </p>
         </fieldset>
       </form>
+
     </section>
   </main>
 
@@ -115,21 +137,24 @@
       <img src="img/logo.png" alt="">
       <figcaption></figcaption>
     </figure>
+
     <nav>
       <ul>
         <li><a href="/gethelp">Accessibility</a></li>
         <li><a href="/selfcare">Privacy</a></li>
       </ul>
     </nav>
+
     <address>
-      The Tech Returners Surgery,
-      115 Mancunian Way,
-      Manchester,
-      UK,
-      M20 3PX
+      <p>
+        The Tech Returners Surgery,
+        115 Mancunian Way,
+        Manchester,
+        UK,
+        M20 3PX
+      </p>
     </address>
   </footer>
-
 
 </body>
 
